@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "measurement": {
+    "purpose": "Observe identity consistency and discovery performance.",
+    "signals": [
+      "Reference availability",
+      "Record consistency",
+      "Version alignment",
+      "External recognition"
+    ],
+    "review_cycle": "Continuous"
+  },
+  "measurement_status": "Active",
+  "version": "1.0"
+}
