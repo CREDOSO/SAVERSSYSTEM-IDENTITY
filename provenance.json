@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "record_type": "Canonical Identity Record",
+  "source": {
+    "repository": "SAVERSSYSTEM-IDENTITY",
+    "platform": "GitHub"
+  },
+  "authority": {
+    "purpose": "Maintain the official machine-readable identity definition of SAVERSSYSTEM™"
+  },
+  "status": "Active"
+}
