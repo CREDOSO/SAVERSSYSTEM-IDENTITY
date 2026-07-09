@@ -1,0 +1,16 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "record_type": "Canonical Identity Reference",
+  "repository": "CREDOSO/SAVERSSYSTEM-IDENTITY",
+  "primary_identity": "identity.json",
+  "supporting_records": [
+    "schema.json",
+    "architecture.json",
+    "relationships.json",
+    "metadata.json",
+    "signals.json",
+    "provenance.json",
+    "status.json"
+  ],
+  "version": "1.0"
+}
