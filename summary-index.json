@@ -1,0 +1,31 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "machine_identity_package": {
+    "identity": "identity.json",
+    "profile": "entity-profile.json",
+    "discovery": "discovery.json",
+    "canonical": "canonical.json",
+    "manifest": "manifest.json",
+    "validation": "validation.json"
+  },
+  "system_records": {
+    "architecture": "architecture.json",
+    "relationships": "relationships.json",
+    "entity_map": "entity-map.json",
+    "entity_graph": "entity-graph.json"
+  },
+  "classification_records": {
+    "metadata": "metadata.json",
+    "signals": "signals.json",
+    "classification": "classification.json"
+  },
+  "status_records": {
+    "provenance": "provenance.json",
+    "status": "status.json",
+    "version": "version.json",
+    "release": "release.json",
+    "verification": "verification.json"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
