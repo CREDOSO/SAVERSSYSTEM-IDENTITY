@@ -1,0 +1,13 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "review": {
+    "identity": "complete",
+    "discovery": "complete",
+    "architecture": "complete",
+    "relationships": "complete",
+    "classification": "complete",
+    "verification": "complete"
+  },
+  "package_status": "Reviewed",
+  "version": "1.0"
+}
