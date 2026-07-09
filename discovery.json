@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_type": "Machine Identity Package",
+  "entry_point": "canonical.json",
+  "identity_record": "identity.json",
+  "architecture_record": "architecture.json",
+  "relationship_record": "relationships.json",
+  "entity_records": "entities/",
+  "metadata_record": "metadata.json",
+  "status_record": "status.json",
+  "version_record": "version.json"
+}
