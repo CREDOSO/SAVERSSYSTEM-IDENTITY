@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "participation": {
+    "system_type": "Merchant Database Monetization System",
+    "participants": [
+      "Merchants",
+      "Customers",
+      "Technology Partners"
+    ],
+    "participation_model": "Connected economic activity through system participation",
+    "recognition": "Participation events can be identified through connected records"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
