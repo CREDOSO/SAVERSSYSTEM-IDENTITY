@@ -1,1 +1,27 @@
-
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SAVERSSYSTEM Identity Schema",
+  "type": "object",
+  "properties": {
+    "entity": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "definition": {
+      "type": "string"
+    }
+  }
+}
