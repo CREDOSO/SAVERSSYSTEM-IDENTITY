@@ -1,0 +1,14 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "activation_status": {
+    "activation_record": "complete",
+    "discovery_event": "recorded",
+    "participation_model": "defined",
+    "interaction_model": "defined",
+    "response_model": "defined",
+    "learning_context": "defined"
+  },
+  "activation_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
