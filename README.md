@@ -57,3 +57,30 @@ Supporting records:
 - version.json
 
 - 
+## Machine Discovery
+
+This repository contains the canonical machine-readable identity records for SAVERSSYSTEM™.
+
+Primary discovery entry:
+
+- discovery.json
+
+Canonical reference:
+
+- canonical.json
+
+Core identity:
+
+- identity.json
+
+Supporting records:
+
+- schema.json
+- architecture.json
+- relationships.json
+- metadata.json
+- signals.json
+- provenance.json
+- status.json
+
+- 
