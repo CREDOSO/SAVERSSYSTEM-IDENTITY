@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "activation": {
+    "identity_package": "available",
+    "discovery_layer": "active",
+    "reference_layer": "active",
+    "external_visibility": "enabled"
+  },
+  "activation_stage": "Machine Discovery Activation",
+  "status": "Active",
+  "version": "1.0"
+}
