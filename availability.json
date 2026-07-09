@@ -1,0 +1,11 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "availability": {
+    "repository_visibility": "public",
+    "identity_records_accessible": true,
+    "machine_files_available": true,
+    "reference_structure_available": true
+  },
+  "availability_status": "Active",
+  "version": "1.0"
+}
