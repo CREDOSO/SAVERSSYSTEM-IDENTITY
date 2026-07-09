@@ -1,0 +1,9 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "release": {
+    "version": "1.0",
+    "status": "Initial Identity Package",
+    "repository": "CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "purpose": "Establish canonical machine-readable identity reference."
+  }
+}
