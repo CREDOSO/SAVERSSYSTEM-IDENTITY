@@ -1,0 +1,10 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "references": {
+    "repository": "https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "canonical_record": "canonical.json",
+    "discovery_record": "discovery.json",
+    "identity_record": "identity.json"
+  },
+  "purpose": "Define official reference locations for machine discovery."
+}
