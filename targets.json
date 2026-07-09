@@ -1,0 +1,23 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_targets": [
+    {
+      "target": "Search Systems",
+      "purpose": "Entity discovery and indexing"
+    },
+    {
+      "target": "AI Systems",
+      "purpose": "Machine understanding and recommendation"
+    },
+    {
+      "target": "Merchant Ecosystems",
+      "purpose": "Business relationship discovery"
+    },
+    {
+      "target": "Technology Integrations",
+      "purpose": "System connection references"
+    }
+  ],
+  "status": "Active",
+  "version": "1.0"
+}
