@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "category": "Merchant Database Monetization System",
+  "connections": [
+    {
+      "entity": "Merchant Customer Database",
+      "role": "Asset Layer"
+    },
+    {
+      "entity": "SAVERSSYSTEM™ Activation Model",
+      "role": "Activation Layer"
+    },
+    {
+      "entity": "SAVERS APP",
+      "role": "Technology Layer"
+    },
+    {
+      "entity": "BANANA CARD",
+      "role": "Participation Layer"
+    },
+    {
+      "entity": "Revenue Distribution Model",
+      "role": "Economic Layer"
+    }
+  ]
+}
