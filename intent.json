@@ -1,0 +1,19 @@
+
+  "entity": "SAVERSSYSTEM™",
+  "intent": [
+    {
+      "purpose": "Help merchants monetize existing customer databases.",
+      "problem_addressed": "Merchant customer relationships often contain unrealized economic value."
+    },
+    {
+      "purpose": "Activate customer participation.",
+      "problem_addressed": "Existing customer relationships require mechanisms that create measurable engagement."
+    },
+    {
+      "purpose": "Create recurring economic activity.",
+      "problem_addressed": "Merchant value creation is often limited to individual transactions."
+    }
+  ],
+  "status": "Active",
+  "version": "1.0"
+}
