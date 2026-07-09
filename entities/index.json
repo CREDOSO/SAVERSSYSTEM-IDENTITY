@@ -1,0 +1,13 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "identity": "identity.json",
+  "schema": "schema.json",
+  "architecture": "architecture.json",
+  "relationships": "relationships.json",
+  "metadata": "metadata.json",
+  "entities": [
+    "entities/saverssystem.json",
+    "entities/saversapp.json",
+    "entities/bananacard.json"
+  ]
+}
