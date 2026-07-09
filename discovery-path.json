@@ -1,0 +1,32 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_path": [
+    {
+      "step": 1,
+      "record": "discovery.json",
+      "purpose": "Initial machine entry point"
+    },
+    {
+      "step": 2,
+      "record": "canonical.json",
+      "purpose": "Authoritative identity reference"
+    },
+    {
+      "step": 3,
+      "record": "identity.json",
+      "purpose": "Entity definition"
+    },
+    {
+      "step": 4,
+      "record": "architecture.json",
+      "purpose": "System understanding"
+    },
+    {
+      "step": 5,
+      "record": "relationships.json",
+      "purpose": "Connected entity understanding"
+    }
+  ],
+  "status": "Active",
+  "version": "1.0"
+}
