@@ -1,0 +1,21 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "connection_type": "External Machine Reference",
+  "repository": "https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY",
+  "connection_points": [
+    {
+      "name": "Canonical Identity",
+      "file": "canonical.json"
+    },
+    {
+      "name": "Machine Discovery Entry",
+      "file": "discovery.json"
+    },
+    {
+      "name": "Identity Definition",
+      "file": "identity.json"
+    }
+  ],
+  "status": "Active",
+  "version": "1.0"
+}
