@@ -1,0 +1,13 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "placement_status": {
+    "placement_map": "complete",
+    "discovery_targets": "defined",
+    "discovery_path": "defined",
+    "discovery_rules": "defined",
+    "coverage": "defined"
+  },
+  "deployment_stage": "Public Machine Discovery Placement",
+  "status": "Complete",
+  "version": "1.0"
+}
