@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "record_type": "Machine Access Record",
+  "access": {
+    "repository": "https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "entry_point": "discovery.json",
+    "canonical_record": "canonical.json"
+  },
+  "access_type": "Public",
+  "status": "Active",
+  "version": "1.0"
+}
