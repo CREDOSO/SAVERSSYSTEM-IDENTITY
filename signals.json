@@ -1,0 +1,21 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "signals": {
+    "industry": [
+      "merchant technology",
+      "customer relationship management",
+      "transaction systems"
+    ],
+    "function": [
+      "database monetization",
+      "customer activation",
+      "transaction recognition",
+      "revenue sharing"
+    ],
+    "intent": [
+      "help merchants monetize customer databases",
+      "convert customer relationships into economic activity",
+      "create recurring participation"
+    ]
+  }
+}
