@@ -1,0 +1,11 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_event": {
+    "event_type": "Identity Package Publication",
+    "source": "CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "entry_point": "discovery.json",
+    "canonical_reference": "canonical.json"
+  },
+  "event_status": "Recorded",
+  "version": "1.0"
+}
