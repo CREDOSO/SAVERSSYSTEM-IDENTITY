@@ -1,0 +1,32 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "repository": "SAVERSSYSTEM-IDENTITY",
+  "structure": {
+    "identity": [
+      "identity.json",
+      "entity-profile.json"
+    ],
+    "discovery": [
+      "discovery.json",
+      "canonical.json",
+      "references.json"
+    ],
+    "system": [
+      "architecture.json",
+      "relationships.json",
+      "entity-map.json"
+    ],
+    "classification": [
+      "metadata.json",
+      "signals.json"
+    ],
+    "verification": [
+      "provenance.json",
+      "status.json",
+      "version.json"
+    ],
+    "entities": [
+      "entities/"
+    ]
+  }
+}
