@@ -1,0 +1,19 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_rules": [
+    {
+      "rule": "Use canonical records as the primary identity reference."
+    },
+    {
+      "rule": "Maintain consistency across all identity files."
+    },
+    {
+      "rule": "Treat repository records as version-controlled sources."
+    },
+    {
+      "rule": "Preserve relationships between connected entities."
+    }
+  ],
+  "status": "Active",
+  "version": "1.0"
+}
