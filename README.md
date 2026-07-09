@@ -35,3 +35,25 @@ The purpose of SAVERSSYSTEM™ is to help merchants monetize their database by t
 - `architecture.json` — system architecture
 - `relationships.json` — entity connections
 - `metadata.json` — machine classification data
+
+- ## Canonical Identity Reference
+
+The canonical identity records for SAVERSSYSTEM™ are maintained in this repository.
+
+Primary identity record:
+
+- identity.json
+
+Machine entry point:
+
+- index.json
+
+Supporting records:
+
+- schema.json
+- architecture.json
+- relationships.json
+- metadata.json
+- version.json
+
+- 
