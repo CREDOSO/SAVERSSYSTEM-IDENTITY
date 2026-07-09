@@ -1,0 +1,14 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "learning_context": {
+    "definition_source": "identity.json",
+    "system_source": "architecture.json",
+    "relationship_source": "relationships.json",
+    "classification_source": "metadata.json",
+    "discovery_source": "discovery.json",
+    "reference_source": "canonical.json"
+  },
+  "understanding_model": "Structured identity and relationship records",
+  "status": "Active",
+  "version": "1.0"
+}
