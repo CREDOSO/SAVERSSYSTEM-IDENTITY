@@ -1,0 +1,51 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "graph": {
+    "nodes": [
+      {
+        "name": "SAVERSSYSTEM™",
+        "type": "Business System"
+      },
+      {
+        "name": "Merchant Customer Database",
+        "type": "Asset"
+      },
+      {
+        "name": "SAVERS APP",
+        "type": "Technology Layer"
+      },
+      {
+        "name": "BANANA CARD",
+        "type": "Participation Object"
+      },
+      {
+        "name": "Revenue Distribution Model",
+        "type": "Economic Layer"
+      }
+    ],
+    "connections": [
+      {
+        "from": "SAVERSSYSTEM™",
+        "to": "Merchant Customer Database",
+        "relationship": "uses"
+      },
+      {
+        "from": "SAVERSSYSTEM™",
+        "to": "SAVERS APP",
+        "relationship": "integrates"
+      },
+      {
+        "from": "SAVERSSYSTEM™",
+        "to": "BANANA CARD",
+        "relationship": "connects"
+      },
+      {
+        "from": "SAVERSSYSTEM™",
+        "to": "Revenue Distribution Model",
+        "relationship": "creates"
+      }
+    ]
+  },
+  "status": "Active",
+  "version": "1.0"
+}
