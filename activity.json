@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "activity": {
+    "tracked_events": [
+      "Identity references",
+      "Discovery requests",
+      "External connections",
+      "Record updates"
+    ],
+    "activity_purpose": "Observe machine interaction with the identity package.",
+    "activity_source": "Repository and structured records"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
