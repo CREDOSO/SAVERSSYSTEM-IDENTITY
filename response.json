@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "response_record": {
+    "discovery_response": "Identity package available",
+    "entity_response": "SAVERSSYSTEM™ is a Merchant Database Monetization System",
+    "reference_response": {
+      "canonical": "canonical.json",
+      "discovery": "discovery.json",
+      "identity": "identity.json"
+    },
+    "system_response": "Architecture and relationship records available"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
