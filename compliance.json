@@ -1,0 +1,17 @@
+em 8 — Machine Compliance Record
+Step 3 — Add content
+
+Paste:
+
+{
+  "entity": "SAVERSSYSTEM™",
+  "compliance_record": {
+    "identity_structure": "aligned",
+    "repository_structure": "aligned",
+    "record_relationships": "aligned",
+    "version_control": "aligned",
+    "documentation": "aligned"
+  },
+  "compliance_status": "Complete",
+  "version": "1.0"
+}
