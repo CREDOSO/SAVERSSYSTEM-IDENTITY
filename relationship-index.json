@@ -1,0 +1,27 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "relationship_index": [
+    {
+      "entity": "Merchant Customer Database",
+      "relationship": "asset_layer"
+    },
+    {
+      "entity": "SAVERSSYSTEM™ Activation Model",
+      "relationship": "activation_layer"
+    },
+    {
+      "entity": "SAVERS APP",
+      "relationship": "technology_layer"
+    },
+    {
+      "entity": "BANANA CARD",
+      "relationship": "participation_layer"
+    },
+    {
+      "entity": "Revenue Distribution Model",
+      "relationship": "economic_layer"
+    }
+  ],
+  "status": "Active",
+  "version": "1.0"
+}
