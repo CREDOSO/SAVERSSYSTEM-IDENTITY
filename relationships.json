@@ -1,0 +1,24 @@
+{
+  "relationships": [
+    {
+      "source": "SAVERSSYSTEM™",
+      "target": "SAVERS APP",
+      "type": "technology_layer"
+    },
+    {
+      "source": "SAVERSSYSTEM™",
+      "target": "BANANA CARD",
+      "type": "participation_layer"
+    },
+    {
+      "source": "SAVERSSYSTEM™",
+      "target": "Merchant Database",
+      "type": "asset_layer"
+    },
+    {
+      "source": "SAVERSSYSTEM™",
+      "target": "Revenue Distribution Model",
+      "type": "economic_layer"
+    }
+  ]
+}
