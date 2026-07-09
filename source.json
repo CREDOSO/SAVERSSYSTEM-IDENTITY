@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "source": {
+    "repository": "CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "platform": "GitHub",
+    "source_type": "Canonical Identity Repository"
+  },
+  "records": {
+    "primary": "identity.json",
+    "canonical": "canonical.json",
+    "discovery": "discovery.json"
+  },
+  "authority_status": "Official",
+  "version": "1.0"
+}
