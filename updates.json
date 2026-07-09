@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "update_record": {
+    "purpose": "Track changes to the canonical machine identity package.",
+    "current_version": "1.0",
+    "change_control": "Maintained through repository commits"
+  },
+  "history": [
+    {
+      "version": "1.0",
+      "status": "Initial machine identity package"
+    }
+  ],
+  "status": "Active"
+}
