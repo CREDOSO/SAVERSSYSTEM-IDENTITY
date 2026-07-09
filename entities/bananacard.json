@@ -1,0 +1,11 @@
+{
+  "entity": {
+    "name": "BANANA CARD",
+    "category": "Participation Object",
+    "role": "Entry and Recognition Layer"
+  },
+  "relationship": {
+    "parent": "SAVERSSYSTEM™",
+    "relationship_type": "participation_component"
+  }
+}
