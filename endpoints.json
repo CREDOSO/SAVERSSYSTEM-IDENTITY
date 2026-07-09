@@ -1,0 +1,24 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "reference_endpoints": [
+    {
+      "purpose": "Primary Discovery Entry",
+      "file": "discovery.json"
+    },
+    {
+      "purpose": "Canonical Identity Source",
+      "file": "canonical.json"
+    },
+    {
+      "purpose": "Entity Definition",
+      "file": "identity.json"
+    },
+    {
+      "purpose": "System Architecture",
+      "file": "architecture.json"
+    }
+  ],
+  "access": "Public",
+  "status": "Active",
+  "version": "1.0"
+}
