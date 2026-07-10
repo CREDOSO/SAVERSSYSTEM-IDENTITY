@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "integration_status": {
+    "integration_record": "complete",
+    "interface_record": "complete",
+    "connection_map": "complete",
+    "external_reference_ready": true
+  },
+  "integration_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
