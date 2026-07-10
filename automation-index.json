@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "automation_index": {
+    "automation_references": [
+      {
+        "component": "Events",
+        "reference": "event-model.json"
+      },
+      {
+        "component": "Actions",
+        "reference": "action-model.json"
+      },
+      {
+        "component": "Transactions",
+        "reference": "transaction-model.json"
+      },
+      {
+        "component": "Feedback",
+        "reference": "learning-model.json"
+      }
+    ],
+    "index_type": "Machine automation reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
