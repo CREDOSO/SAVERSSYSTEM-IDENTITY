@@ -1,0 +1,27 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "connection_map": {
+    "identity_layer": {
+      "source": "identity.json",
+      "purpose": "Entity definition"
+    },
+    "discovery_layer": {
+      "source": "discovery.json",
+      "purpose": "Machine discovery entry"
+    },
+    "canonical_layer": {
+      "source": "canonical.json",
+      "purpose": "Authoritative reference"
+    },
+    "system_layer": {
+      "source": "architecture.json",
+      "purpose": "System understanding"
+    },
+    "relationship_layer": {
+      "source": "relationships.json",
+      "purpose": "Entity connections"
+    }
+  },
+  "connection_status": "Active",
+  "version": "1.0"
+}
