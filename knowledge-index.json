@@ -1,0 +1,30 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "knowledge_index": {
+    "knowledge_categories": [
+      {
+        "category": "Identity",
+        "reference": "identity.json"
+      },
+      {
+        "category": "Architecture",
+        "reference": "architecture.json"
+      },
+      {
+        "category": "Relationships",
+        "reference": "relationships.json"
+      },
+      {
+        "category": "Intent",
+        "reference": "intent-model.json"
+      },
+      {
+        "category": "Actions",
+        "reference": "action-model.json"
+      }
+    ],
+    "index_type": "Structured knowledge map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
