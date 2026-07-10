@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_activation_index": {
+    "activation_references": [
+      {
+        "asset": "Identity Records",
+        "reference": "Entity recognition"
+      },
+      {
+        "asset": "Semantic Records",
+        "reference": "Meaning and classification"
+      },
+      {
+        "asset": "Relationship Records",
+        "reference": "Connected entities"
+      },
+      {
+        "asset": "Deployment Records",
+        "reference": "Public availability"
+      }
+    ],
+    "index_type": "Machine discovery activation map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
