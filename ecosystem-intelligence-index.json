@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "ecosystem_intelligence_index": {
+    "references": [
+      {
+        "category": "Participants",
+        "reference": "Merchant and customer nodes"
+      },
+      {
+        "category": "Relationships",
+        "reference": "Connected ecosystem entities"
+      },
+      {
+        "category": "Activity",
+        "reference": "Transaction and participation events"
+      },
+      {
+        "category": "Value",
+        "reference": "Economic outcomes"
+      }
+    ],
+    "index_type": "Machine ecosystem reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
