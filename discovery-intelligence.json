@@ -1,0 +1,27 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_intelligence": {
+    "purpose": "Enable machines to connect identity, knowledge, intent, and actions.",
+    "discovery_signals": [
+      {
+        "signal": "Identity",
+        "source": "identity records"
+      },
+      {
+        "signal": "Knowledge",
+        "source": "knowledge records"
+      },
+      {
+        "signal": "Intent",
+        "source": "intent records"
+      },
+      {
+        "signal": "Actions",
+        "source": "action records"
+      }
+    ],
+    "discovery_model": "Machine interpretation pathway"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
