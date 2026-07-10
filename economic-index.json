@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "economic_index": {
+    "economic_references": [
+      {
+        "component": "Merchant Database Asset",
+        "reference": "Asset Layer"
+      },
+      {
+        "component": "Activation Model",
+        "reference": "Participation Layer"
+      },
+      {
+        "component": "Technology Layer",
+        "reference": "SAVERS APP"
+      },
+      {
+        "component": "Revenue Distribution",
+        "reference": "Economic Layer"
+      }
+    ],
+    "index_type": "Economic component reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
