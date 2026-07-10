@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "ecosystem_intelligence_loop_index": {
+    "loop_references": [
+      {
+        "area": "Participation",
+        "reference": "Participation records"
+      },
+      {
+        "area": "Transactions",
+        "reference": "Transaction records"
+      },
+      {
+        "area": "Relationships",
+        "reference": "Relationship intelligence records"
+      },
+      {
+        "area": "Learning",
+        "reference": "Learning records"
+      }
+    ],
+    "index_type": "Machine ecosystem intelligence loop map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
