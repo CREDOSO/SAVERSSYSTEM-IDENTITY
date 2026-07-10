@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "ecosystem_expansion_index": {
+    "expansion_references": [
+      {
+        "area": "Merchants",
+        "reference": "Merchant participation growth"
+      },
+      {
+        "area": "Customers",
+        "reference": "Participation growth"
+      },
+      {
+        "area": "Partners",
+        "reference": "Network relationships"
+      },
+      {
+        "area": "Systems",
+        "reference": "Connected technology environments"
+      }
+    ],
+    "index_type": "Machine ecosystem expansion map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
