@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "trust_authority_index": {
+    "trust_references": [
+      {
+        "category": "Identity",
+        "reference": "Canonical identity records"
+      },
+      {
+        "category": "Evidence",
+        "reference": "Verification evidence records"
+      },
+      {
+        "category": "Relationships",
+        "reference": "Connected entity records"
+      },
+      {
+        "category": "External Signals",
+        "reference": "Third-party references"
+      }
+    ],
+    "index_type": "Machine trust authority reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
