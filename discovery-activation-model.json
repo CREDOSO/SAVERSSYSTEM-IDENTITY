@@ -1,0 +1,27 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_activation_model": {
+    "purpose": "Define how published SAVERSSYSTEM™ records become discoverable by machines.",
+    "activation_signals": [
+      {
+        "signal": "Identity Consistency",
+        "purpose": "Maintain recognizable entity information"
+      },
+      {
+        "signal": "Structured Records",
+        "purpose": "Enable machine interpretation"
+      },
+      {
+        "signal": "Connected References",
+        "purpose": "Strengthen entity relationships"
+      },
+      {
+        "signal": "Public Availability",
+        "purpose": "Allow external discovery"
+      }
+    ],
+    "activation_flow": "Publish → Index → Interpret → Surface"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
