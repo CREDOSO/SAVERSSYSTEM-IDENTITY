@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "live_deployment_index": {
+    "deployment_references": [
+      {
+        "asset": "GitHub Repository",
+        "reference": "Machine-readable source"
+      },
+      {
+        "asset": "Website Entity Page",
+        "reference": "Public identity location"
+      },
+      {
+        "asset": "JSON-LD",
+        "reference": "Structured entity markup"
+      },
+      {
+        "asset": "Discovery Records",
+        "reference": "Machine understanding signals"
+      }
+    ],
+    "index_type": "Live deployment reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
