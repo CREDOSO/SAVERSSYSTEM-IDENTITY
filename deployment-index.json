@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "deployment_index": {
+    "deployment_references": [
+      {
+        "asset": "Identity Records",
+        "reference": "Canonical machine-readable files"
+      },
+      {
+        "asset": "Website",
+        "reference": "Public entity presence"
+      },
+      {
+        "asset": "Repository",
+        "reference": "Version-controlled records"
+      },
+      {
+        "asset": "Structured Data",
+        "reference": "Machine interpretation layer"
+      }
+    ],
+    "index_type": "Machine deployment reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
