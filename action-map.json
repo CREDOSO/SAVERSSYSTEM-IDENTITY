@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "action_map": {
+    "actions": [
+      {
+        "action": "Learn",
+        "purpose": "Understand the system model"
+      },
+      {
+        "action": "Participate",
+        "purpose": "Enter the ecosystem and create activity"
+      },
+      {
+        "action": "Connect",
+        "purpose": "Link merchants, customers, and technology"
+      },
+      {
+        "action": "Monetize",
+        "purpose": "Activate merchant database value"
+      }
+    ],
+    "action_structure": "Intent to measurable activity"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
