@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "relationship_intelligence": {
+    "purpose": "Define how machines understand connections between identity records and related entities.",
+    "relationships": [
+      {
+        "source": "SAVERSSYSTEM™",
+        "relationship": "system identity",
+        "target": "SAVERS APP"
+      },
+      {
+        "source": "SAVERSSYSTEM™",
+        "relationship": "associated component",
+        "target": "BANANA CARD"
+      },
+      {
+        "source": "SAVERSSYSTEM™",
+        "relationship": "ecosystem participant",
+        "target": "Merchant Networks"
+      }
+    ],
+    "relationship_model": "Structured entity connections"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
