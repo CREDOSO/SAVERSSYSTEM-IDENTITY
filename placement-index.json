@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "placement_index": {
+    "placement_references": [
+      {
+        "environment": "Search",
+        "reference": "Entity identity records"
+      },
+      {
+        "environment": "AI Systems",
+        "reference": "Knowledge and semantic records"
+      },
+      {
+        "environment": "Web Platforms",
+        "reference": "Public identity pages"
+      },
+      {
+        "environment": "Repositories",
+        "reference": "Machine-readable files"
+      }
+    ],
+    "index_type": "Machine placement reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
