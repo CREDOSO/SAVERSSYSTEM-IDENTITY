@@ -1,0 +1,30 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "concept_map": {
+    "concepts": [
+      {
+        "concept": "Merchant Database",
+        "relationship": "Primary asset"
+      },
+      {
+        "concept": "Activation Model",
+        "relationship": "Participation mechanism"
+      },
+      {
+        "concept": "SAVERS APP",
+        "relationship": "Technology layer"
+      },
+      {
+        "concept": "Transaction Recognition",
+        "relationship": "Activity measurement"
+      },
+      {
+        "concept": "Revenue Distribution",
+        "relationship": "Economic model"
+      }
+    ],
+    "concept_structure": "Connected system components"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
