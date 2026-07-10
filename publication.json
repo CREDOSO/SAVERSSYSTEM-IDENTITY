@@ -1,0 +1,17 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "publication": {
+    "purpose": "Prepare the identity package for public machine discovery.",
+    "publication_assets": [
+      "identity.json",
+      "canonical.json",
+      "discovery.json",
+      "README.md",
+      "Structured records"
+    ],
+    "availability": "Public",
+    "reference_model": "Machine-readable identity package"
+  },
+  "publication_status": "Ready",
+  "version": "1.0"
+}
