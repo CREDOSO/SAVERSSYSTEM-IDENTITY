@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "connection_index": {
+    "connection_references": [
+      {
+        "connection": "Identity",
+        "reference": "Canonical records"
+      },
+      {
+        "connection": "Technology",
+        "reference": "SAVERS APP and interfaces"
+      },
+      {
+        "connection": "Ecosystem",
+        "reference": "Merchant and participant network"
+      },
+      {
+        "connection": "Economic",
+        "reference": "Value distribution model"
+      }
+    ],
+    "index_type": "Machine connection reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
