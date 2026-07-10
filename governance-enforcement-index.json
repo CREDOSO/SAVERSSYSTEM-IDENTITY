@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "governance_enforcement_index": {
+    "references": [
+      {
+        "category": "Authority",
+        "reference": "authority.json"
+      },
+      {
+        "category": "Governance",
+        "reference": "governance.json"
+      },
+      {
+        "category": "Verification",
+        "reference": "verification.json"
+      },
+      {
+        "category": "Version Control",
+        "reference": "version.json"
+      }
+    ],
+    "index_type": "Machine governance enforcement reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
