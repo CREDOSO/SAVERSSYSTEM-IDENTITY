@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "event_index": {
+    "event_references": [
+      {
+        "event": "Discovery",
+        "reference": "Machine discovery activity"
+      },
+      {
+        "event": "Activation",
+        "reference": "Participation activation"
+      },
+      {
+        "event": "Transaction",
+        "reference": "Recognized economic activity"
+      },
+      {
+        "event": "Feedback",
+        "reference": "System learning activity"
+      }
+    ],
+    "index_type": "Machine event reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
