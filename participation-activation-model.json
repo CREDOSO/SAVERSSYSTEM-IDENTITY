@@ -1,0 +1,27 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "participation_activation_model": {
+    "purpose": "Define how participants move from connection into active SAVERSSYSTEM™ participation.",
+    "activation_flow": [
+      {
+        "stage": "Discovery",
+        "description": "Participant becomes aware of SAVERSSYSTEM™."
+      },
+      {
+        "stage": "Entry",
+        "description": "Participant accesses a participation pathway."
+      },
+      {
+        "stage": "Activation",
+        "description": "Participant begins meaningful activity."
+      },
+      {
+        "stage": "Recognition",
+        "description": "Activity becomes part of the system record."
+      }
+    ],
+    "activation_structure": "Discover → Enter → Activate → Recognize"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
