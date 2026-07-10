@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "network_index": {
+    "network_references": [
+      {
+        "node": "Merchant",
+        "reference": "Merchant participation"
+      },
+      {
+        "node": "Customer",
+        "reference": "Customer activity"
+      },
+      {
+        "node": "Technology",
+        "reference": "Connection infrastructure"
+      },
+      {
+        "node": "Partners",
+        "reference": "Expansion relationships"
+      }
+    ],
+    "index_type": "Machine network reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
