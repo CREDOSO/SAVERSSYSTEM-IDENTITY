@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "monitoring_index": {
+    "monitoring_references": [
+      {
+        "area": "Discovery",
+        "reference": "Machine visibility signals"
+      },
+      {
+        "area": "Participation",
+        "reference": "Activity records"
+      },
+      {
+        "area": "Connections",
+        "reference": "Network relationships"
+      },
+      {
+        "area": "Performance",
+        "reference": "System outcomes"
+      }
+    ],
+    "index_type": "Machine monitoring reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
