@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "surface_index": {
+    "surface_references": [
+      {
+        "surface": "Search",
+        "reference": "Discovery records"
+      },
+      {
+        "surface": "AI Systems",
+        "reference": "Knowledge and semantic records"
+      },
+      {
+        "surface": "Website",
+        "reference": "Public identity location"
+      },
+      {
+        "surface": "Repositories",
+        "reference": "Structured source records"
+      }
+    ],
+    "index_type": "Machine surface reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
