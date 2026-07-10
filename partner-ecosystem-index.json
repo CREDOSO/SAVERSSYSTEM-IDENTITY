@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "partner_ecosystem_index": {
+    "partner_references": [
+      {
+        "category": "Technology",
+        "reference": "Integration partners"
+      },
+      {
+        "category": "Distribution",
+        "reference": "Growth channels"
+      },
+      {
+        "category": "Business",
+        "reference": "Merchant ecosystem"
+      },
+      {
+        "category": "Strategic",
+        "reference": "Long-term relationships"
+      }
+    ],
+    "index_type": "Machine partner ecosystem reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
