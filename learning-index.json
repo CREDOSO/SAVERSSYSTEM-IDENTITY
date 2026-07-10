@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "learning_index": {
+    "learning_references": [
+      {
+        "source": "Feedback Records",
+        "purpose": "Capture system responses"
+      },
+      {
+        "source": "Activity Records",
+        "purpose": "Measure participation behavior"
+      },
+      {
+        "source": "Performance Records",
+        "purpose": "Evaluate outcomes"
+      },
+      {
+        "source": "Improvement Records",
+        "purpose": "Apply system changes"
+      }
+    ],
+    "index_type": "Machine learning reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
