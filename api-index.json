@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "api_index": {
+    "interfaces": [
+      {
+        "interface": "Identity",
+        "reference": "identity records"
+      },
+      {
+        "interface": "Participation",
+        "reference": "participation records"
+      },
+      {
+        "interface": "Transaction",
+        "reference": "transaction records"
+      },
+      {
+        "interface": "Verification",
+        "reference": "verification records"
+      }
+    ],
+    "index_type": "Machine interface reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
