@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "event_status": {
+    "event_model": "complete",
+    "event_index": "complete",
+    "event_recognition": "defined",
+    "event_tracking": "active"
+  },
+  "event_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
