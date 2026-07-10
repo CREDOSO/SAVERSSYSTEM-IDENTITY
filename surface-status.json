@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "surface_status": {
+    "surface_model": "complete",
+    "surface_index": "complete",
+    "machine_visibility": "enabled",
+    "external_retrieval": "active"
+  },
+  "surface_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
