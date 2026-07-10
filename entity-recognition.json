@@ -1,0 +1,17 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "entity_recognition": {
+    "entity_name": "SAVERSSYSTEM™",
+    "entity_type": "Merchant Database Monetization System",
+    "recognition_signals": [
+      "System definition",
+      "Canonical identity records",
+      "Structured data",
+      "Related entities",
+      "Repository references"
+    ],
+    "recognition_model": "Distinct machine-identifiable entity"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
