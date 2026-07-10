@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "classification_index": {
+    "categories": [
+      {
+        "category": "System",
+        "reference": "classification-model.json"
+      },
+      {
+        "category": "Technology",
+        "reference": "SAVERS APP"
+      },
+      {
+        "category": "Participation",
+        "reference": "Participation records"
+      },
+      {
+        "category": "Economic Model",
+        "reference": "Revenue distribution records"
+      }
+    ],
+    "index_type": "Machine classification reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
