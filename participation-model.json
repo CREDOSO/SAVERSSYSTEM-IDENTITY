@@ -1,0 +1,37 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "participation_model": {
+    "purpose": "Define how participants enter, act, and create recognized activity.",
+    "participation_flow": [
+      {
+        "stage": "Entry",
+        "examples": [
+          "QR",
+          "CARD",
+          "LINK"
+        ]
+      },
+      {
+        "stage": "Action",
+        "examples": [
+          "Meaningful engagement event"
+        ]
+      },
+      {
+        "stage": "Recognition",
+        "examples": [
+          "Transaction activity recorded"
+        ]
+      },
+      {
+        "stage": "Return",
+        "examples": [
+          "Repeated participation over time"
+        ]
+      }
+    ],
+    "participation_structure": "Entry → Action → Recognition → Return"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
