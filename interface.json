@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "interface": {
+    "reference_points": [
+      {
+        "name": "Identity Interface",
+        "file": "identity.json"
+      },
+      {
+        "name": "Canonical Interface",
+        "file": "canonical.json"
+      },
+      {
+        "name": "Discovery Interface",
+        "file": "discovery.json"
+      },
+      {
+        "name": "Architecture Interface",
+        "file": "architecture.json"
+      }
+    ],
+    "access_model": "Public structured reference"
+  },
+  "interface_status": "Available",
+  "version": "1.0"
+}
