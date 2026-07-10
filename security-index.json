@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "security_index": {
+    "security_references": [
+      {
+        "category": "Identity",
+        "reference": "identity.json"
+      },
+      {
+        "category": "Verification",
+        "reference": "verification.json"
+      },
+      {
+        "category": "Version",
+        "reference": "version.json"
+      },
+      {
+        "category": "Governance",
+        "reference": "governance.json"
+      }
+    ],
+    "index_type": "Machine security reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
