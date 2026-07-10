@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "intent_status": {
+    "intent_model": "complete",
+    "action_model": "complete",
+    "machine_intent_understanding": "defined",
+    "action_mapping": "active"
+  },
+  "intent_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
