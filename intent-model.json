@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "intent_model": {
+    "purpose": "Define the actions and outcomes associated with SAVERSSYSTEM™.",
+    "intents": [
+      {
+        "intent": "Merchant Monetization",
+        "description": "Help merchants activate existing customer relationships."
+      },
+      {
+        "intent": "Customer Participation",
+        "description": "Enable customers to participate in recognized activity."
+      },
+      {
+        "intent": "System Connection",
+        "description": "Connect participants through the SAVERSSYSTEM™ ecosystem."
+      },
+      {
+        "intent": "Economic Activity",
+        "description": "Create measurable recurring participation activity."
+      }
+    ]
+  },
+  "status": "Active",
+  "version": "1.0"
+}
