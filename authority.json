@@ -1,0 +1,15 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "authority": {
+    "primary_source": "CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "authority_structure": {
+      "canonical_record": "canonical.json",
+      "identity_record": "identity.json",
+      "discovery_record": "discovery.json",
+      "repository_history": "GitHub commits"
+    },
+    "reference_rule": "Use canonical records as the authoritative identity source."
+  },
+  "status": "Active",
+  "version": "1.0"
+}
