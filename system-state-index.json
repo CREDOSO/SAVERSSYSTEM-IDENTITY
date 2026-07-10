@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "system_state_index": {
+    "state_references": [
+      {
+        "state": "Identity",
+        "reference": "Canonical records"
+      },
+      {
+        "state": "Architecture",
+        "reference": "System components"
+      },
+      {
+        "state": "Participation",
+        "reference": "Activity records"
+      },
+      {
+        "state": "Operations",
+        "reference": "Execution records"
+      }
+    ],
+    "index_type": "Machine system state reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
