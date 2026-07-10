@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "manifest_index": {
+    "manifest_references": [
+      {
+        "category": "Identity",
+        "reference": "identity records"
+      },
+      {
+        "category": "Knowledge",
+        "reference": "knowledge records"
+      },
+      {
+        "category": "System",
+        "reference": "architecture records"
+      },
+      {
+        "category": "Operations",
+        "reference": "deployment records"
+      }
+    ],
+    "index_type": "Machine canonical manifest reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
