@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "live_operations_index": {
+    "operation_references": [
+      {
+        "area": "Monitoring",
+        "reference": "Monitoring records"
+      },
+      {
+        "area": "Maintenance",
+        "reference": "Integrity and governance records"
+      },
+      {
+        "area": "Improvement",
+        "reference": "Learning and feedback records"
+      },
+      {
+        "area": "Scaling",
+        "reference": "Expansion records"
+      }
+    ],
+    "index_type": "Machine live operations reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
