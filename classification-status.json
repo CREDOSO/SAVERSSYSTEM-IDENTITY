@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "classification_status": {
+    "classification_model": "complete",
+    "classification_index": "complete",
+    "machine_classification": "defined",
+    "category_mapping": "active"
+  },
+  "classification_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
