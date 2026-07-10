@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "network": {
+    "relationships": [
+      {
+        "entity": "Merchant",
+        "relationship": "Database owner and system participant"
+      },
+      {
+        "entity": "Customer",
+        "relationship": "Participation and transaction activity source"
+      },
+      {
+        "entity": "SAVERS APP",
+        "relationship": "Technology participation layer"
+      },
+      {
+        "entity": "Partners",
+        "relationship": "Distribution and ecosystem expansion"
+      }
+    ],
+    "network_type": "Participation-based economic network"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
