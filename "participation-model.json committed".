@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "participation_index": {
+    "participation_references": [
+      {
+        "stage": "Entry",
+        "reference": "QR, CARD, LINK"
+      },
+      {
+        "stage": "Action",
+        "reference": "Meaningful engagement events"
+      },
+      {
+        "stage": "Recognition",
+        "reference": "Transaction recognition"
+      },
+      {
+        "stage": "Return",
+        "reference": "Repeated participation activity"
+      }
+    ],
+    "index_type": "Participation pathway reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
