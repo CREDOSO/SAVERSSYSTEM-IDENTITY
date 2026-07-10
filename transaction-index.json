@@ -1,0 +1,32 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "transaction_index": {
+    "transaction_references": [
+      {
+        "concept": "Transaction Activity",
+        "reference": "Qualifying participant activity"
+      },
+      {
+        "concept": "Transaction Recognition",
+        "reference": "Technology layer recognition event"
+      },
+      {
+        "concept": "Transaction Record",
+        "reference": "Participation history"
+      },
+      {
+        "concept": "Economic Connection",
+        "reference": "Revenue distribution model"
+      }
+    ],
+    "transaction_path": {
+      "entry": "Participant connection",
+      "activity": "Transaction event",
+      "recognition": "Recorded activity",
+      "outcome": "Economic participation"
+    },
+    "index_type": "Machine transaction reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
