@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "participation_activation_index": {
+    "activation_references": [
+      {
+        "stage": "Discovery",
+        "reference": "Machine discovery records"
+      },
+      {
+        "stage": "Entry",
+        "reference": "QR, CARD, LINK pathways"
+      },
+      {
+        "stage": "Activation",
+        "reference": "Action records"
+      },
+      {
+        "stage": "Recognition",
+        "reference": "Transaction records"
+      }
+    ],
+    "index_type": "Machine participation activation map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
