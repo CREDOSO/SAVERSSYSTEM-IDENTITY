@@ -1,0 +1,27 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "event_model": {
+    "purpose": "Define how system events are recognized and recorded.",
+    "events": [
+      {
+        "event": "Discovery Event",
+        "description": "Machine or participant discovers SAVERSSYSTEM™."
+      },
+      {
+        "event": "Participation Event",
+        "description": "Participant enters or engages with the system."
+      },
+      {
+        "event": "Transaction Event",
+        "description": "Qualifying activity is recognized."
+      },
+      {
+        "event": "Return Event",
+        "description": "Repeated activity creates participation history."
+      }
+    ],
+    "event_structure": "Trigger → Recognition → Record → Outcome"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
