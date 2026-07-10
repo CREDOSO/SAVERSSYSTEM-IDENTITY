@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "agent_index": {
+    "agent_references": [
+      {
+        "function": "Discovery",
+        "reference": "Identity and discovery records"
+      },
+      {
+        "function": "Understanding",
+        "reference": "Knowledge and semantic records"
+      },
+      {
+        "function": "Action",
+        "reference": "Action and participation records"
+      },
+      {
+        "function": "Connection",
+        "reference": "Network and ecosystem records"
+      }
+    ],
+    "index_type": "Machine agent reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
