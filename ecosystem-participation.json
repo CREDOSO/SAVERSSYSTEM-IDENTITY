@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "ecosystem_participation": {
+    "participation_roles": [
+      {
+        "participant": "Merchant",
+        "role": "Provides customer relationship asset"
+      },
+      {
+        "participant": "Customer",
+        "role": "Creates recognized transaction activity"
+      },
+      {
+        "participant": "Technology Partner",
+        "role": "Enables system connection and recognition"
+      },
+      {
+        "participant": "Distribution Partner",
+        "role": "Expands ecosystem participation"
+      }
+    ],
+    "participation_structure": "Connected economic participation"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
