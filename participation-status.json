@@ -1,0 +1,12 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "participation_status": {
+    "participation_model": "complete",
+    "participation_index": "complete",
+    "entry_action_return_flow": "defined",
+    "machine_participation_understanding": "active"
+  },
+  "participation_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
