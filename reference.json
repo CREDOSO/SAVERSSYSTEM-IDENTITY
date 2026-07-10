@@ -1,0 +1,16 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "reference": {
+    "purpose": "Provide a stable reference point for external systems.",
+    "reference_type": "Canonical identity package",
+    "primary_source": "CREDOSO/SAVERSSYSTEM-IDENTITY",
+    "reference_files": [
+      "canonical.json",
+      "identity.json",
+      "discovery.json",
+      "architecture.json"
+    ]
+  },
+  "reference_status": "Active",
+  "version": "1.0"
+}
