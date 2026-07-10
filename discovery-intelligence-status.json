@@ -1,0 +1,13 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "discovery_intelligence_status": {
+    "discovery_intelligence": "complete",
+    "identity_connection": "active",
+    "knowledge_connection": "active",
+    "intent_connection": "active",
+    "action_connection": "active"
+  },
+  "discovery_stage": "Complete",
+  "status": "Active",
+  "version": "1.0"
+}
