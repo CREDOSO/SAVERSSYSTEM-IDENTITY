@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "enterprise_integration_index": {
+    "integration_references": [
+      {
+        "system": "CRM Systems",
+        "reference": "Customer relationship data"
+      },
+      {
+        "system": "Payment Systems",
+        "reference": "Transaction recognition"
+      },
+      {
+        "system": "Applications",
+        "reference": "Participation interfaces"
+      },
+      {
+        "system": "Enterprise Platforms",
+        "reference": "Business integration"
+      }
+    ],
+    "index_type": "Machine enterprise integration map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
