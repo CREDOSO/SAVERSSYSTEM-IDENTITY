@@ -146,3 +146,32 @@ The merged records must preserve:
 - participation state.
 
   
+---
+
+# Migration Batch 3 — Classification Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `classification-model.json` | KEEP | `models/classification-model.json` | Most complete classification definition |
+| `classification.json` | MERGE | `models/classification-model.json` | Earlier overlapping classification record |
+| `classification-index.json` | MERGE | `index.json` | Navigation belongs in the canonical root index |
+| `classification-status.json` | MOVE | `archive/generated-v0/classification-status.json` | Self-declared completion status |
+| `metadata.json` | KEEP | `/metadata.json` | Compact canonical discovery metadata |
+| `signals.json` | MERGE | `metadata.json` | Overlapping discovery and classification signals |
+
+## Canonical Result
+
+The authoritative classification records will be:
+
+- `metadata.json`
+- `models/classification-model.json`
+
+The consolidated records must preserve:
+
+- Merchant Database Monetization System;
+- merchant technology;
+- customer relationship activation;
+- transaction recognition;
+- participation;
+- revenue distribution;
+- machine discovery terminology.
