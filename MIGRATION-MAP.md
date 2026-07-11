@@ -499,3 +499,15 @@ The consolidated records must distinguish:
 - verified evidence from self-declared status;
 - version history from a frozen release;
 - integrity checks from unsupported compliance claims.
+
+...
+
+Commit message:
+Classify governance verification and trust records
+
+<cursor here>
+
+--------------------------------------------------
+
+# Repository Consolidation Plan
+...
