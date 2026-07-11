@@ -209,4 +209,46 @@ The consolidated discovery structure must preserve:
 - public accessibility;
 - machine retrieval pathways.
 
-- 
+---
+
+# Migration Batch 5 — Identity & Canonical Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `index.json` | KEEP | `/index.json` | Single canonical machine entry point |
+| `identity.json` | KEEP | `/identity.json` | Canonical SAVERSSYSTEM™ entity definition |
+| `canonical.json` | KEEP | `/canonical.json` | Authoritative reference record |
+| `canonical-manifest.json` | MERGE | `index.json` | Competes with the root index as a machine entry point |
+| `manifest.json` | MERGE | `index.json` | Overlapping package navigation record |
+| `manifest-index.json` | MERGE | `index.json` | Navigation belongs in the canonical root index |
+| `manifest-status.json` | MOVE | `archive/generated-v0/manifest-status.json` | Self-declared completion record |
+| `entity-profile.json` | MERGE | `identity.json` | Entity profile duplicates core identity information |
+| `machine-summary.json` | MERGE | `identity.json` | Compact identity summary overlaps with the canonical identity |
+| `summary-index.json` | MERGE | `index.json` | Duplicate high-level navigation index |
+| `repository-map.json` | MERGE | `index.json` | Repository navigation belongs in the root index |
+| `canonical-deployment-model.json` | MOVE | `archive/generated-v0/canonical-deployment-model.json` | Generated conceptual deployment declaration |
+| `canonical-deployment-index.json` | MERGE | `index.json` | Relevant navigation can be preserved in the root index |
+| `canonical-deployment-status.json` | MOVE | `archive/generated-v0/canonical-deployment-status.json` | Self-declared deployment status |
+
+## Canonical Result
+
+The authoritative identity hierarchy will be:
+
+```text
+index.json
+    ↓
+canonical.json
+    ↓
+identity.json
+
+Supporting records will be referenced from index.json, but they will not compete as root entry points.
+
+The consolidated identity records must preserve:
+
+SAVERSSYSTEM™ as the entity name;
+Merchant Database Monetization System as the category;
+the approved system definition;
+repository provenance;
+canonical navigation;
+related entities;
+current version information.
