@@ -175,3 +175,38 @@ The consolidated records must preserve:
 - participation;
 - revenue distribution;
 - machine discovery terminology.
+
+---
+
+# Migration Batch 4 — Discovery Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `discovery.json` | KEEP | `/discovery.json` | Canonical machine discovery record |
+| `discovery-path.json` | MERGE | `discovery.json` | Discovery sequence belongs in the canonical discovery record |
+| `discovery-intelligence.json` | MERGE | `discovery.json` | Overlapping machine interpretation pathway |
+| `discovery-activation-model.json` | MERGE | `discovery.json` | Activation signals belong in discovery architecture |
+| `discovery-status.json` | MOVE | `archive/generated-v0/discovery-status.json` | Self-declared status record |
+| `discovery-intelligence-status.json` | MOVE | `archive/generated-v0/discovery-intelligence-status.json` | Redundant completion record |
+| `discovery-intelligence-complete.json` | MOVE | `archive/generated-v0/discovery-intelligence-complete.json` | Duplicate completion declaration |
+| `discovery-activation-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `discovery-activation-status.json` | MOVE | `archive/generated-v0/discovery-activation-status.json` | Self-declared activation status |
+
+## Canonical Result
+
+The authoritative discovery records will be:
+
+- `index.json`
+- `discovery.json`
+
+The consolidated discovery structure must preserve:
+
+- canonical entry-point navigation;
+- identity discovery;
+- classification signals;
+- interpretation sequence;
+- connected references;
+- public accessibility;
+- machine retrieval pathways.
+
+- 
