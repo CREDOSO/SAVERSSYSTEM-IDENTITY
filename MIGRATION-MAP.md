@@ -91,3 +91,29 @@ The migration is complete when:
 3. Generated records are archived.
 4. Internal references remain valid.
 5. Version 1.0 can be frozen and tagged.
+
+---
+
+# Migration Batch 1 — Action Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `action-model.json` | KEEP | `/models/action-model.json` | Canonical description of the action model |
+| `action-map.json` | MERGE | `action-model.json` | Overlapping action definitions |
+| `action.json` | MERGE | `action-model.json` | Earlier simplified action record |
+| `action-status.json` | MOVE | `archive/generated-v0/action-status.json` | Self-declared completion status |
+| `action-complete.json` | MOVE | `archive/generated-v0/action-complete.json` | Redundant completion declaration |
+
+## Canonical Result
+
+The authoritative action record will be:
+
+- `models/action-model.json`
+
+The merged record must preserve:
+
+- merchant participation;
+- customer engagement;
+- transaction recognition;
+- value distribution;
+- machine-readable action pathways.
