@@ -117,3 +117,32 @@ The merged record must preserve:
 - transaction recognition;
 - value distribution;
 - machine-readable action pathways.
+
+---
+
+# Migration Batch 2 — Activation Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `activation.json` | MERGE | `models/participation-model.json` | Activation state overlaps with participation and discovery pathways |
+| `activation-status.json` | MOVE | `archive/generated-v0/activation-status.json` | Self-declared completion record |
+| `discovery-event.json` | MERGE | `models/participation-model.json` | Publication event belongs within the participation/discovery flow |
+
+## Canonical Result
+
+Activation will not remain a separate root authority.
+
+The authoritative activation pathway will be represented inside:
+
+- `models/participation-model.json`
+- `discovery.json`
+
+The merged records must preserve:
+
+- discovery;
+- entry;
+- activation;
+- recognition;
+- participation state.
+
+  
