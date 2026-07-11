@@ -345,3 +345,45 @@ The consolidated economic model must preserve:
 - partner and agent value;
 - revenue distribution;
 - recurring economic activity.
+
+---
+
+# Migration Batch 8 — Knowledge, Intent & Semantic Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `knowledge-model.json` | KEEP | `models/knowledge-model.json` | Canonical structured knowledge model |
+| `knowledge.json` | MERGE | `models/knowledge-model.json` | Earlier knowledge summary overlaps with the model |
+| `knowledge-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `knowledge-status.json` | MOVE | `archive/generated-v0/knowledge-status.json` | Self-declared completion status |
+| `intent-model.json` | KEEP | `models/intent-model.json` | Canonical intent model |
+| `intent.json` | MERGE | `models/intent-model.json` | Earlier intent record overlaps with the model |
+| `intent-status.json` | MOVE | `archive/generated-v0/intent-status.json` | Self-declared completion status |
+| `semantic-model.json` | KEEP | `models/semantic-model.json` | Canonical machine interpretation model |
+| `concept-map.json` | MERGE | `models/semantic-model.json` | Concept relationships belong in the semantic model |
+| `semantic-status.json` | MOVE | `archive/generated-v0/semantic-status.json` | Self-declared completion status |
+| `learning-context.json` | MERGE | `models/knowledge-model.json` | Source references belong in the knowledge model |
+| `learning-model.json` | REVIEW | `models/learning-model.json` | Potential operational learning model; distinct from static knowledge |
+| `learning-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `learning-status.json` | MOVE | `archive/generated-v0/learning-status.json` | Self-declared completion status |
+
+## Canonical Result
+
+The authoritative understanding records will be:
+
+- `models/knowledge-model.json`
+- `models/intent-model.json`
+- `models/semantic-model.json`
+
+`models/learning-model.json` remains under review because it may represent an operational feedback process rather than static identity knowledge.
+
+The consolidated records must preserve:
+
+- the approved SAVERSSYSTEM™ definition;
+- system architecture knowledge;
+- merchant database monetization intent;
+- customer participation intent;
+- transaction-recognition concepts;
+- revenue-distribution concepts;
+- machine-readable semantic relationships;
+- clear separation between static knowledge and operational learning.
