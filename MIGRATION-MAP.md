@@ -448,3 +448,54 @@ The consolidated live operations model must preserve:
 - feedback;
 - improvement;
 - scaling readiness.
+
+---
+
+# Migration Batch 10 — Governance, Verification & Trust Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `governance.json` | KEEP | `/governance.json` | Canonical governance principles |
+| `authority.json` | KEEP | `/authority.json` | Canonical authority hierarchy |
+| `version.json` | KEEP | `/version.json` | Canonical version record |
+| `governance-status.json` | MOVE | `archive/generated-v0/governance-status.json` | Self-declared completion status |
+| `governance-enforcement-model.json` | MERGE | `governance.json` | Enforcement principles belong in canonical governance |
+| `governance-enforcement-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `governance-enforcement-status.json` | MOVE | `archive/generated-v0/governance-enforcement-status.json` | Self-declared completion record |
+| `verification.json` | KEEP | `evidence/verification.json` | Canonical internal verification record |
+| `validation.json` | KEEP | `evidence/validation.json` | Canonical validation framework record |
+| `verification-status.json` | MOVE | `archive/generated-v0/verification-status.json` | Redundant completion status |
+| `verification-evidence-model.json` | MERGE | `evidence/verification.json` | Evidence categories belong in canonical verification |
+| `verification-evidence-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `verification-evidence-status.json` | MOVE | `archive/generated-v0/verification-evidence-status.json` | Self-declared completion status |
+| `trust.json` | MERGE | `governance.json` | Trust claims depend on governance and evidence |
+| `trust-signals.json` | MERGE | `evidence/verification.json` | Trust signals belong with evidence |
+| `trust-status.json` | MOVE | `archive/generated-v0/trust-status.json` | Self-declared trust status |
+| `trust-authority-model.json` | MERGE | `governance.json` | Authority and trust hierarchy belongs in governance |
+| `trust-authority-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `trust-authority-status.json` | MOVE | `archive/generated-v0/trust-authority-status.json` | Self-declared completion status |
+| `integrity.json` | MERGE | `evidence/verification.json` | Integrity checks belong in verification |
+| `security-model.json` | REVIEW | `operations/security-model.json` | May remain if limited to repository integrity controls |
+| `security-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `security-status.json` | MOVE | `archive/generated-v0/security-status.json` | Self-declared completion status |
+| `compliance.json` | MOVE | `archive/generated-v0/compliance.json` | Unsupported self-issued compliance declaration |
+
+## Canonical Result
+
+The authoritative governance and evidence records will be:
+
+- `governance.json`
+- `authority.json`
+- `version.json`
+- `evidence/validation.json`
+- `evidence/verification.json`
+
+`operations/security-model.json` remains under review and must not claim security guarantees that have not been technically tested.
+
+The consolidated records must distinguish:
+
+- internal validation from external verification;
+- repository authority from third-party authority;
+- verified evidence from self-declared status;
+- version history from a frozen release;
+- integrity checks from unsupported compliance claims.
