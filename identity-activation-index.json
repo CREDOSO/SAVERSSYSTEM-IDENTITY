@@ -1,0 +1,26 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "identity_activation_index": {
+    "activation_references": [
+      {
+        "component": "Canonical Manifest",
+        "reference": "canonical-manifest.json"
+      },
+      {
+        "component": "Identity",
+        "reference": "identity.json"
+      },
+      {
+        "component": "Knowledge",
+        "reference": "knowledge-model.json"
+      },
+      {
+        "component": "Participation",
+        "reference": "participation-model.json"
+      }
+    ],
+    "index_type": "Machine identity activation reference map"
+  },
+  "status": "Active",
+  "version": "1.0"
+}
