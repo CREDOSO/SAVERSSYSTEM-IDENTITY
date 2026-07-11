@@ -252,3 +252,42 @@ repository provenance;
 canonical navigation;
 related entities;
 current version information.
+
+---
+
+# Migration Batch 6 — Architecture & Relationship Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `architecture.json` | KEEP | `/architecture.json` | Canonical four-layer system architecture |
+| `relationships.json` | KEEP | `/relationships.json` | Canonical relationship definitions |
+| `entity-map.json` | KEEP | `/entity-map.json` | Canonical connected-entity map |
+| `relationship-intelligence.json` | MERGE | `relationships.json` | Overlapping relationship interpretation |
+| `relationship-status.json` | MOVE | `archive/generated-v0/relationship-status.json` | Self-declared completion status |
+| `relationship-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `entity-graph.json` | MERGE | `entity-map.json` | Graph structure overlaps with entity mapping |
+| `connection-map.json` | MERGE | `relationships.json` | Connection definitions belong in the canonical relationship record |
+| `connection-model.json` | MERGE | `relationships.json` | Overlapping connection structure |
+| `connection-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `connection-status.json` | MOVE | `archive/generated-v0/connection-status.json` | Self-declared completion record |
+| `network.json` | MERGE | `relationships.json` | Earlier network relationships overlap with canonical relationships |
+| `network-model.json` | MERGE | `relationships.json` | Network structure is a relationship model |
+| `network-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `network-status.json` | MOVE | `archive/generated-v0/network-status.json` | Self-declared completion record |
+
+## Canonical Result
+
+The authoritative architecture and relationship records will be:
+
+- `architecture.json`
+- `relationships.json`
+- `entity-map.json`
+
+The consolidated records must preserve:
+
+- Merchant Customer Database as the asset layer;
+- SAVERSSYSTEM™ Activation Model as the activation layer;
+- SAVERS APP as the technology layer;
+- Revenue Distribution Model as the economic layer;
+- BANANA CARD as a related participation object;
+- explicit machine-readable connections among all primary entities.
