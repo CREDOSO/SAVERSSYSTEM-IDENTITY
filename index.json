@@ -1,0 +1,41 @@
+{
+  "entity": "SAVERSSYSTEM™",
+  "record_type": "Canonical Root Index",
+  "category": "Merchant Database Monetization System",
+  "version": "1.0",
+  "primary_entry_points": {
+    "identity": "identity.json",
+    "canonical_reference": "canonical.json",
+    "discovery": "discovery.json",
+    "manifest": "canonical-manifest.json"
+  },
+  "core_system_records": {
+    "architecture": "architecture.json",
+    "relationships": "relationships.json",
+    "entity_map": "entity-map.json",
+    "classification": "classification-model.json",
+    "knowledge": "knowledge-model.json",
+    "intent": "intent-model.json",
+    "actions": "action-model.json",
+    "participation": "participation-model.json",
+    "transactions": "transaction-model.json",
+    "economic_model": "economic-model.json"
+  },
+  "machine_operation_records": {
+    "agent": "agent-model.json",
+    "api": "api-model.json",
+    "automation": "automation-model.json",
+    "interoperability": "interoperability-model.json",
+    "deployment": "deployment-model.json",
+    "monitoring": "monitoring-model.json"
+  },
+  "verification_records": {
+    "verification": "verification.json",
+    "provenance": "provenance.json",
+    "governance": "governance.json",
+    "authority": "authority.json",
+    "version": "version.json"
+  },
+  "repository": "https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY",
+  "status": "Active"
+}
