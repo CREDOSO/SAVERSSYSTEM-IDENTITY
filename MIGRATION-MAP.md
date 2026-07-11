@@ -291,3 +291,57 @@ The consolidated records must preserve:
 - Revenue Distribution Model as the economic layer;
 - BANANA CARD as a related participation object;
 - explicit machine-readable connections among all primary entities.
+
+---
+
+# Migration Batch 7 — Participation, Transaction & Economic Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `participation-model.json` | KEEP | `models/participation-model.json` | Canonical participation pathway |
+| `participation.json` | MERGE | `models/participation-model.json` | Earlier participant summary overlaps with the model |
+| `participation-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `participation-status.json` | MOVE | `archive/generated-v0/participation-status.json` | Self-declared completion record |
+| `participation-activation-model.json` | MERGE | `models/participation-model.json` | Activation sequence belongs in the participation model |
+| `participation-activation-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `participation-activation-status.json` | MOVE | `archive/generated-v0/participation-activation-status.json` | Self-declared completion status |
+| `ecosystem-participation.json` | MERGE | `models/participation-model.json` | Participation roles belong in the canonical participation model |
+| `transaction-model.json` | KEEP | `models/transaction-model.json` | Canonical transaction-recognition model |
+| `transaction-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `transaction-status.json` | MOVE | `archive/generated-v0/transaction-status.json` | Self-declared completion record |
+| `economic-model.json` | KEEP | `models/economic-model.json` | Canonical economic structure |
+| `economic-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `economic-status.json` | MOVE | `archive/generated-v0/economic-status.json` | Self-declared completion record |
+
+## Canonical Result
+
+The authoritative operating models will be:
+
+- `models/participation-model.json`
+- `models/transaction-model.json`
+- `models/economic-model.json`
+
+The consolidated participation model must preserve:
+
+- Entry through QR, CARD, or LINK;
+- meaningful action;
+- transaction recognition;
+- participation history;
+- repeated return activity.
+
+The consolidated transaction model must preserve:
+
+- qualifying activity;
+- recognition through the technology layer;
+- association with merchant and participant records;
+- recorded transaction history;
+- connection to economic outcomes.
+
+The consolidated economic model must preserve:
+
+- merchant database value;
+- participation-driven activity;
+- consumer rewards;
+- partner and agent value;
+- revenue distribution;
+- recurring economic activity.
