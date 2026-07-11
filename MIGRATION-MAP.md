@@ -387,3 +387,64 @@ The consolidated records must preserve:
 - revenue-distribution concepts;
 - machine-readable semantic relationships;
 - clear separation between static knowledge and operational learning.
+
+---
+
+# Migration Batch 9 — Deployment, Publication & Operations Records
+
+| File | Action | Destination | Reason |
+|---|---|---|---|
+| `deployment-model.json` | KEEP | `operations/deployment-model.json` | Canonical deployment sequence |
+| `deployment-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `deployment-status.json` | MOVE | `archive/generated-v0/deployment-status.json` | Self-declared completion record |
+| `deployment-checkpoint.json` | MOVE | `archive/generated-v0/deployment-checkpoint.json` | Generated checkpoint declaration |
+| `live-deployment-model.json` | MERGE | `operations/deployment-model.json` | Overlapping live deployment sequence |
+| `live-deployment-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `live-deployment-status.json` | MOVE | `archive/generated-v0/live-deployment-status.json` | Self-declared live status |
+| `publication.json` | MERGE | `operations/deployment-model.json` | Publication state belongs in deployment |
+| `publication-channels.json` | MERGE | `operations/deployment-model.json` | Publication channels belong in deployment |
+| `publication-status.json` | MOVE | `archive/generated-v0/publication-status.json` | Self-declared completion record |
+| `placement-map.json` | MERGE | `operations/deployment-model.json` | Placement map belongs in deployment planning |
+| `placement-model.json` | MERGE | `operations/deployment-model.json` | Overlapping placement structure |
+| `placement-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `placement-status.json` | MOVE | `archive/generated-v0/placement-status.json` | Self-declared completion record |
+| `surface-model.json` | REVIEW | `operations/surface-model.json` | May remain as a distinct discovery-surface model |
+| `surface-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `surface-status.json` | MOVE | `archive/generated-v0/surface-status.json` | Self-declared completion record |
+| `operational-status.json` | MOVE | `archive/generated-v0/operational-status.json` | Self-declared operational state |
+| `operational-complete.json` | MOVE | `archive/generated-v0/operational-complete.json` | Redundant completion record |
+| `live-operations-model.json` | KEEP | `operations/live-operations-model.json` | Canonical post-deployment operating cycle |
+| `live-operations-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `live-operations-status.json` | MOVE | `archive/generated-v0/live-operations-status.json` | Self-declared live status |
+| `activity.json` | MERGE | `operations/live-operations-model.json` | Activity tracking belongs in live operations |
+| `performance.json` | MERGE | `operations/live-operations-model.json` | Performance indicators belong in live operations |
+| `monitoring-model.json` | KEEP | `operations/monitoring-model.json` | Canonical monitoring and improvement cycle |
+| `monitoring-index.json` | MERGE | `index.json` | Navigation belongs in the root index |
+| `monitoring-status.json` | MOVE | `archive/generated-v0/monitoring-status.json` | Self-declared completion record |
+
+## Canonical Result
+
+The authoritative deployment and operations records will be:
+
+- `operations/deployment-model.json`
+- `operations/live-operations-model.json`
+- `operations/monitoring-model.json`
+
+`operations/surface-model.json` remains under review because it may represent a distinct machine retrieval environment rather than a deployment duplicate.
+
+The consolidated deployment model must preserve:
+
+- Prepare → Publish → Connect → Discover → Participate;
+- repository publication;
+- website and structured-data placement;
+- machine discovery pathways;
+- public reference channels.
+
+The consolidated live operations model must preserve:
+
+- monitoring;
+- maintenance;
+- performance review;
+- feedback;
+- improvement;
+- scaling readiness.
