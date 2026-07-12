@@ -1,22 +1,78 @@
 {
-  "system": "SAVERSSYSTEM™",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "id": "https://saverssystem.co/architecture.json",
+
+  "entity": "SAVERSSYSTEM™",
+  "type": "System Architecture",
+  "status": "Active",
+
+  "description": "Canonical architecture definition for SAVERSSYSTEM™. This record defines the operating structure of the merchant database monetization system and the relationships between its primary architectural layers.",
+
   "architecture": {
-    "asset_layer": {
+    "asset": {
       "name": "Merchant Customer Database",
-      "description": "Existing merchant customer relationships and transaction history."
+      "role": "Foundational business asset containing existing customer relationships and participation history."
     },
-    "activation_layer": {
-      "name": "SAVERSSYSTEM™ Activation Model",
-      "description": "Framework that activates merchant relationships into participation."
+
+    "activation": {
+      "name": "Participation Model",
+      "role": "Activates merchant customer relationships by creating meaningful participation events."
     },
-    "technology_layer": {
-      "name": "SAVERS APP",
-      "description": "Technology layer enabling participation and transaction recognition."
+
+    "technology": {
+      "name": "SAVERS APP Transaction Recognition",
+      "role": "Recognizes qualifying transactions and participation events, creating verifiable activity records."
     },
-    "economic_layer": {
-      "name": "Revenue Distribution Model",
-      "description": "Economic structure that distributes value created through activity."
+
+    "economics": {
+      "name": "Revenue Distribution",
+      "role": "Distributes economic value generated through recognized participation and transaction activity."
+    },
+
+    "outcome": {
+      "name": "Recurring Economic Activity",
+      "role": "Produces measurable recurring value for merchants, participants, and ecosystem partners."
     }
   },
-  "output": "Recurring Economic Activity"
+
+  "flow": [
+    {
+      "sequence": 1,
+      "layer": "Merchant Customer Database"
+    },
+    {
+      "sequence": 2,
+      "layer": "Participation Model"
+    },
+    {
+      "sequence": 3,
+      "layer": "SAVERS APP Transaction Recognition"
+    },
+    {
+      "sequence": 4,
+      "layer": "Revenue Distribution"
+    },
+    {
+      "sequence": 5,
+      "layer": "Recurring Economic Activity"
+    }
+  ],
+
+  "principles": [
+    "Existing customer relationships are economic assets.",
+    "Participation creates measurable history.",
+    "Recognized transactions validate participation.",
+    "Validated participation enables revenue distribution.",
+    "Recurring participation produces recurring economic activity."
+  ],
+
+  "machine": {
+    "discoverable": true,
+    "indexable": true,
+    "canonical": true,
+    "public": true
+  },
+
+  "updated": "2026-07-12"
 }
