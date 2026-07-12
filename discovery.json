@@ -1,12 +1,37 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "id": "https://saverssystem.co/discovery.json",
+
   "entity": "SAVERSSYSTEM™",
-  "discovery_type": "Machine Identity Package",
-  "entry_point": "canonical.json",
-  "identity_record": "identity.json",
-  "architecture_record": "architecture.json",
-  "relationship_record": "relationships.json",
-  "entity_records": "entities/",
-  "metadata_record": "metadata.json",
-  "status_record": "status.json",
-  "version_record": "version.json"
+  "type": "Machine Identity Package",
+  "status": "Active",
+
+  "description": "Canonical discovery index for the SAVERSSYSTEM™ Machine Identity Package. This document identifies the primary machine-readable records that define, validate, and describe the SAVERSSYSTEM™ entity.",
+
+  "repository": {
+    "name": "SAVERSSYSTEM-IDENTITY",
+    "provider": "GitHub",
+    "canonical": "index.json"
+  },
+
+  "records": {
+    "index": "index.json",
+    "identity": "identity.json",
+    "architecture": "architecture.json",
+    "relationships": "relationships.json",
+    "entities": "entities/",
+    "metadata": "metadata.json",
+    "status": "status.json",
+    "version": "version.json"
+  },
+
+  "machine": {
+    "discoverable": true,
+    "indexable": true,
+    "canonical": true,
+    "public": true
+  },
+
+  "updated": "2026-07-12"
 }
