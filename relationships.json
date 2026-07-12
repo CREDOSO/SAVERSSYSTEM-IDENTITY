@@ -1,24 +1,53 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "id": "https://saverssystem.co/relationships.json",
+
+  "entity": "SAVERSSYSTEM™",
+  "type": "Entity Relationships",
+  "status": "Active",
+
+  "description": "Canonical relationship record defining the primary entities and their relationships within the SAVERSSYSTEM™ ecosystem.",
+
   "relationships": [
     {
-      "source": "SAVERSSYSTEM™",
-      "target": "SAVERS APP",
-      "type": "technology_layer"
+      "source": "Merchant Customer Database",
+      "relationship": "activates",
+      "target": "Participation Model"
+    },
+    {
+      "source": "Participation Model",
+      "relationship": "uses",
+      "target": "SAVERS APP Transaction Recognition"
+    },
+    {
+      "source": "SAVERS APP Transaction Recognition",
+      "relationship": "enables",
+      "target": "Revenue Distribution"
+    },
+    {
+      "source": "Revenue Distribution",
+      "relationship": "produces",
+      "target": "Recurring Economic Activity"
     },
     {
       "source": "SAVERSSYSTEM™",
-      "target": "BANANA CARD",
-      "type": "participation_layer"
+      "relationship": "includes",
+      "target": "SAVERS APP"
     },
     {
       "source": "SAVERSSYSTEM™",
-      "target": "Merchant Database",
-      "type": "asset_layer"
-    },
-    {
-      "source": "SAVERSSYSTEM™",
-      "target": "Revenue Distribution Model",
-      "type": "economic_layer"
+      "relationship": "includes",
+      "target": "BANANA CARD"
     }
-  ]
+  ],
+
+  "machine": {
+    "discoverable": true,
+    "indexable": true,
+    "canonical": true,
+    "public": true
+  },
+
+  "updated": "2026-07-12"
 }
