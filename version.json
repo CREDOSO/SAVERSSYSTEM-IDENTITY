@@ -1,11 +1,44 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "id": "https://saverssystem.co/version.json",
+
   "entity": "SAVERSSYSTEM™",
-  "version_record": {
-    "current_version": "1.0",
-    "version_control": "GitHub repository history",
-    "change_tracking": "Enabled",
-    "record_consistency": "Maintained"
+  "type": "Canonical Version Record",
+  "status": "Active",
+
+  "description": "Canonical version record for the SAVERSSYSTEM™ Machine Identity Package. This record defines the current release, version history, compatibility, and lifecycle of the canonical machine-readable identity assets.",
+
+  "current": {
+    "version": "1.0.0",
+    "release": "Initial Canonical Release",
+    "date": "2026-07-12",
+    "status": "Active"
   },
-  "version_status": "Current",
-  "status": "Active"
+
+  "compatibility": {
+    "identity": "1.0.0",
+    "discovery": "1.0.0",
+    "architecture": "1.0.0",
+    "relationships": "1.0.0",
+    "metadata": "1.0.0",
+    "status": "1.0.0",
+    "schema": "1.0.0"
+  },
+
+  "history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-07-12",
+      "description": "Initial canonical release of the SAVERSSYSTEM™ Machine Identity Package."
+    }
+  ],
+
+  "machine": {
+    "versioned": true,
+    "canonical": true,
+    "backward_compatible": true
+  },
+
+  "updated": "2026-07-12"
 }
