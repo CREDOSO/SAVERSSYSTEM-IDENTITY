@@ -1,20 +1,53 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "id": "https://saverssystem.co/metadata.json",
+
   "entity": "SAVERSSYSTEM™",
-  "classification": {
-    "primary": "Merchant Database Monetization System",
-    "secondary": [
-      "Customer Relationship Monetization",
-      "Participation Platform",
-      "Transaction Recognition System",
-      "Revenue Sharing Model"
-    ]
+  "type": "Canonical Metadata Record",
+  "status": "Active",
+
+  "description": "Canonical metadata describing the SAVERSSYSTEM™ Machine Identity Package. This record identifies publication metadata, ownership, classification, repository references, and machine-readable characteristics that support consistent discovery, validation, interoperability, and lifecycle management across machine-to-machine environments.",
+
+  "identity": {
+    "name": "SAVERSSYSTEM™",
+    "category": "Merchant Database Monetization System",
+    "language": "en",
+    "publisher": "SAVERSSYSTEM™",
+    "website": "https://saverssystem.co",
+    "repository": "https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY"
   },
-  "keywords": [
-    "merchant database",
-    "customer relationships",
-    "transaction recognition",
-    "revenue sharing",
-    "participation system"
-  ],
-  "status": "Active"
+
+  "records": {
+    "index": "index.json",
+    "identity": "identity.json",
+    "discovery": "discovery.json",
+    "architecture": "architecture.json",
+    "relationships": "relationships.json",
+    "schema": "schema/identity.schema.json",
+    "metadata": "metadata.json"
+  },
+
+  "classification": {
+    "machine_readable": true,
+    "discoverable": true,
+    "indexable": true,
+    "canonical": true,
+    "public": true
+  },
+
+  "publication": {
+    "format": "JSON",
+    "license": "All Rights Reserved",
+    "visibility": "Public"
+  },
+
+  "machine": {
+    "validation": true,
+    "interoperability": true,
+    "versioned": true,
+    "extensible": true
+  },
+
+  "updated": "2026-07-12"
 }
