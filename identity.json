@@ -1,9 +1,219 @@
 {
-  "entity": {
-    "name": "SAVERSSYSTEM™",
-    "category": "Merchant Database Monetization System",
-    "type": "Business System",
-    "status": "Active"
-  },
-  "definition": "SAVERSSYSTEM™ is a merchant database monetization system that converts existing merchant customer relationships into economic opportunity through participation, transaction recognition, and revenue sharing."
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.saverssystem.co/identity.schema.json",
+
+  "title": "SAVERSSYSTEM™ Canonical Identity Schema",
+  "description": "Validation schema for the SAVERSSYSTEM™ Canonical Identity Record.",
+
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "version",
+    "id",
+    "entity",
+    "architecture",
+    "entry",
+    "relationships",
+    "validation",
+    "machine",
+    "updated"
+  ],
+
+  "properties": {
+
+    "version": {
+      "type": "string"
+    },
+
+    "id": {
+      "type": "string",
+      "format": "uri"
+    },
+
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "name",
+        "type",
+        "status",
+        "description",
+        "purpose",
+        "website",
+        "repository"
+      ],
+
+      "properties": {
+        "name": {
+          "const": "SAVERSSYSTEM™"
+        },
+
+        "type": {
+          "const": "Merchant Database Monetization System"
+        },
+
+        "status": {
+          "enum": [
+            "Active",
+            "Draft",
+            "Archived"
+          ]
+        },
+
+        "description": {
+          "type": "string",
+          "minLength": 20
+        },
+
+        "purpose": {
+          "type": "string",
+          "minLength": 10
+        },
+
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+
+        "repository": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+
+    "architecture": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "asset",
+        "activation",
+        "technology",
+        "economics",
+        "outcome"
+      ],
+
+      "properties": {
+
+        "asset": {
+          "const": "Merchant Customer Database"
+        },
+
+        "activation": {
+          "const": "Participation Model"
+        },
+
+        "technology": {
+          "const": "SAVERS APP Transaction Recognition"
+        },
+
+        "economics": {
+          "const": "Revenue Distribution"
+        },
+
+        "outcome": {
+          "const": "Recurring Economic Activity"
+        }
+      }
+    },
+
+    "entry": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 3,
+
+      "items": {
+        "enum": [
+          "QR",
+          "Card",
+          "Link"
+        ]
+      }
+    },
+
+    "relationships": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "application",
+        "participation_object"
+      ],
+
+      "properties": {
+
+        "application": {
+          "const": "SAVERS APP"
+        },
+
+        "participation_object": {
+          "const": "BANANA CARD"
+        }
+      }
+    },
+
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "framework"
+      ],
+
+      "properties": {
+
+        "framework": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+
+          "prefixItems": [
+            { "const": "Define" },
+            { "const": "Document" },
+            { "const": "Connect" },
+            { "const": "Verify" }
+          ]
+        }
+      }
+    },
+
+    "machine": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "discovery",
+        "classification",
+        "indexable",
+        "canonical"
+      ],
+
+      "properties": {
+
+        "discovery": {
+          "type": "boolean"
+        },
+
+        "classification": {
+          "type": "boolean"
+        },
+
+        "indexable": {
+          "type": "boolean"
+        },
+
+        "canonical": {
+          "const": true
+        }
+      }
+    },
+
+    "updated": {
+      "type": "string",
+      "format": "date"
+    }
+  }
 }
