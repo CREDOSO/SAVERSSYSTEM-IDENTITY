@@ -31,7 +31,8 @@
     "monitoring": "operations/monitoring-model.json"
   },
   "verification_records": {
-    "verification": "verification.json",
+    "verification": "evidence/verification.json",
+    "validation": "evidence/validation.json",
     "provenance": "provenance.json",
     "governance": "governance.json",
     "authority": "authority.json",
