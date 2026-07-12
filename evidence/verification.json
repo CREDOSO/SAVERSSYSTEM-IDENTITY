@@ -1,13 +1,8 @@
-{
-  "entity": "SAVERSSYSTEM™",
-  "verification": {
-    "identity": "verified",
-    "architecture": "verified",
-    "relationships": "verified",
-    "classification": "verified",
-    "discovery": "verified",
-    "repository_access": "verified"
-  },
-  "verification_status": "Complete",
-  "version": "1.0"
+ {
+  "verification": "evidence/verification.json",
+  "validation": "evidence/validation.json",
+  "provenance": "provenance.json",
+  "governance": "governance.json",
+  "authority": "authority.json",
+  "version": "version.json"
 }
