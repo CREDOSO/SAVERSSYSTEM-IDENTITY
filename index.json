@@ -13,21 +13,22 @@
     "architecture": "architecture.json",
     "relationships": "relationships.json",
     "entity_map": "entity-map.json",
-    "classification": "classification-model.json",
-    "knowledge": "knowledge-model.json",
-    "intent": "intent-model.json",
-    "actions": "action-model.json",
-    "participation": "participation-model.json",
-    "transactions": "transaction-model.json",
-    "economic_model": "economic-model.json"
+    "classification": "models/classification-model.json",
+    "knowledge": "models/knowledge-model.json",
+    "intent": "models/intent-model.json",
+    "actions": "models/action-model.json",
+    "participation": "models/participation-model.json",
+    "transactions": "models/transaction-model.json",
+    "economic_model": "models/economic-model.json",
+    "semantics": "models/semantic-model.json"
   },
   "machine_operation_records": {
     "agent": "agent-model.json",
     "api": "api-model.json",
     "automation": "automation-model.json",
     "interoperability": "interoperability-model.json",
-    "deployment": "deployment-model.json",
-    "monitoring": "monitoring-model.json"
+    "deployment": "operations/deployment-model.json",
+    "monitoring": "operations/monitoring-model.json"
   },
   "verification_records": {
     "verification": "verification.json",
