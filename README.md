@@ -33,3 +33,15 @@ https://saverssystem.co/
 Canonical Identity Repository:
 
 https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY
+
+---
+
+## Canonical Reference
+
+Official Website:
+
+https://saverssystem.co/
+
+Identity Repository:
+
+https://github.com/CREDOSO/SAVERSSYSTEM-IDENTITY
